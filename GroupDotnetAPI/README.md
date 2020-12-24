@@ -3,6 +3,8 @@ Links :
 
 //TO DO : Investigating using ViewModel
 
+https://docs.microsoft.com/en-us/ef/core/modeling/relationships?tabs=fluent-api%2Cfluent-api-simple-key%2Csimple-key
+
 https://dotnetcoretutorials.com/2020/03/15/fixing-json-self-referencing-loop-exceptions/
 
 https://www.tutorialsteacher.com/webapi/implement-put-method-in-web-api

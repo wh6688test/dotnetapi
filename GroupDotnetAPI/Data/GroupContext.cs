@@ -20,7 +20,8 @@ namespace GroupDotnetAPI.Data
            
             
             #region Configure the relationship between Group and Members
-            modelBuilder.Entity<Group>().HasMany(g => g.Members)
+            modelBuilder.Entity<Group>()
+              .HasMany(g => g.Members)
               .WithOne(g => g.Group)
               .HasForeignKey(f => f.GroupID)
               .OnDelete(DeleteBehavior.ClientSetNull);
